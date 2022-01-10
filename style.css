@@ -1,0 +1,87 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+   }
+
+
+img{
+    max-width: 100%;
+}
+
+
+.clock{
+    width: 500px;
+    height: 400px;
+    margin: 200px auto 0;
+    font-size: 100px;
+    font-family: digital;
+    position: relative;
+}
+.clock .img img {
+    position: absolute;
+    width: 200px;
+}
+
+
+.clock .img .time{
+    position: relative;
+}
+
+.clock .img .time .hours {
+    color: tomato;
+    font-size: 30px;
+    position: absolute;
+    top: 92px;
+    left: 54px;
+    right: 0;
+}
+.clock .img .time .clon {
+    position: absolute;
+    top: 78px;
+    left: 84px;
+    font-size: 48px;
+    color: tomato;
+}
+.clock .img .time .min {
+    position: absolute;
+    color: turquoise;
+    font-size: 30px;
+    left: 92px;
+    top: 92px;
+}
+.clock .img .time .clon2 {
+    position: absolute;
+    font-size: 48px;
+    top: 78px;
+    left: 119px;
+    color: turquoise;
+}
+.clock .img .time .sec {
+    color: yellow;
+    position: absolute;
+    top: 98px;
+    left: 126px;
+    font-size: 25px;
+}
+span.ampm {
+    position: absolute;
+    color: red;
+    top: 124px;
+    font-size: 30px;
+    left: 83px;
+}
+.clock .img .time .day {
+    position: absolute;
+    color: magenta;
+    font-size: 21px;
+    top: 159px;
+    left: 69px;
+}
+.clock .img .time .date {
+    position: absolute;
+    box-sizing: border-box;
+    color: dodgerblue;
+    font-size: 20px;
+    left: 58px;
+    top: 182px;
+}
