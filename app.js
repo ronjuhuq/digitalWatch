@@ -22,7 +22,7 @@ day.innerHTML = wick(date.getDay());
 
 date2.innerHTML =  `${zero(date.getDate())}/${zero(date.getMonth() == date.getMonth() ? date.getMonth() + 1 : date.getMonth())}/${date.getFullYear()}` ;
 
-ampm.innerHTML = date.getHours > 12 ? 'AM' : 'PM';
+ampm.innerHTML = date.getHours > 12 ? 'PM' : 'AM';
 
 
 
